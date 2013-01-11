@@ -27,8 +27,7 @@ Nesting
     	}
     }
 
-Parent References
------------------
+### Parent References
 
     .concluding{
     	a.important{			
