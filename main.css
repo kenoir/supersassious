@@ -6,4 +6,9 @@
     border-left-width: 20px;
     border-left-color: red;
     border-right-width: 20px;
-    border-right-color: red; }
+    border-right-color: red;
+    border-bottom-width: 10px;
+    border-bottom-color: #ffb733; }
+
+.concluding a.important:hover {
+  color: orange; }

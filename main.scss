@@ -1,3 +1,6 @@
+$awesome: orange;
+$extend: 10px;
+
 #header{
 	background-color:blue;
 	h1 {
@@ -5,13 +8,26 @@
 		border: {
 			style: solid;				
 			left: {
-				width: 20px;
+				width: 10px + $extend;
 				color: red;
 			}
 			right: {
 				width: 20px;
 				color: red;
 			}
+			bottom: {
+				width: 10px;
+				color: lighten($awesome,10%);
+			}
 		}
 	}
+}
+
+.concluding{
+	a.important{			
+		&:hover {
+			color: $awesome;			
+		}				
+	}
+  
 }
