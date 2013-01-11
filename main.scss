@@ -1,0 +1,17 @@
+#header{
+	background-color:blue;
+	h1 {
+		font-size: 5em;
+		border: {
+			style: solid;				
+			left: {
+				width: 20px;
+				color: red;
+			}
+			right: {
+				width: 20px;
+				color: red;
+			}
+		}
+	}
+}
