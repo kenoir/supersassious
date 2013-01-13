@@ -1,5 +1,5 @@
 #header {
-  background-color: blue; }
+  color: blue; }
   #header h1 {
     font-size: 5em;
     border-style: solid;
@@ -10,5 +10,27 @@
     border-bottom-width: 10px;
     border-bottom-color: #ffb733; }
 
-.concluding a.important:hover {
-  color: orange; }
+#content .introducing-orange {
+  background-color: orange; }
+
+.concluding {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform; }
+  .concluding:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    -moz-transform: rotate(360deg);
+    /* Firefox */
+    -webkit-transform: rotate(360deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(360deg);
+    /* Opera */ }
+  .concluding a.important:hover {
+    color: orange; }
